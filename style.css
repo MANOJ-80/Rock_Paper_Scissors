@@ -1,0 +1,108 @@
+body{
+    background-color:rgb(25, 25, 25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.title{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+
+
+}
+.tcon{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 50px;
+}
+.btn{
+    background-color: transparent;
+    border: 3px solid rgb(248, 114, 23);
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-right: 15px;
+    cursor: pointer;
+
+
+}
+.btn:hover{
+    border:3px solid rgb(61, 248, 23);
+}
+.result{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.JS{
+    margin-top: 50px;
+}
+.movecont{
+    margin-top: 40px;
+}
+.Reset{
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-color: black;
+    cursor: pointer;
+    margin-top: 40px;
+
+    
+
+}
+.Reset:hover{
+   
+    background-color:rgb(248, 23, 199) ;
+}
+.btn-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border: 2px solid aqua;
+    border-radius: 60px;
+    
+    border-style: solid;
+    padding-top: 40px;
+    border-width: 2px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 55px;
+    width: 700px;
+    margin: 0% auto;
+    
+    
+}
+.result{
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+    color: rgb(61, 248, 23);
+}
+.movecont{
+    display: flex;
+    justify-content: center;
+}
+.btn-cont2{
+    display: flex;
+    justify-content: center;
+}
+.rcont{
+    display: flex;
+    justify-content: center;
+
+}
+.R:hover{
+    color: rgb(61, 248, 23);
+}
+.P:hover{
+    color: rgb(248, 23, 199);
+}
+.S:hover{
+    color: rgb(61, 248, 23);
+}

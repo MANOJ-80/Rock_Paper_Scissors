@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+ 
+</head>
+<body>
+   
+    <script src="script.js"></script>
+    <div class="tcon"><p class="title"><h1 class="R">Rock &nbsp;  </h1> <h1 class="P">Paper &nbsp; </h1><h1 class="S">Scissors  </h1></p></div>
+    <div class="btn-cont">
+        <button onclick="gameplay('rock');" class="btn"><img src="./rock-emoji.png" alt="r" class="icon"></button>
+        <button onclick="gameplay('paper');" class="btn"><img src="./paper-emoji.png" alt="p" class="icon"></button>
+        <button onclick="gameplay('scissor');" class="btn"><img src="./scissor-emoji.png" alt="s" class="icon"></button>
+        
+    </div>
+  
+        
+        <p class="result"></p>
+        
+        <div class="movecont">
+            <p class="move"> </p>
+        </div>
+        
+        
+        
+        
+        
+        <div class="btn-cont2"><p class="JS"></p></div>
+    
+    
+        <div class="rcont">
+            <button onclick="Score.Wins=0;
+                    Score.Losses=0;
+                    Score.Ties=0;
+                    localStorage.removeItem('Score')
+                    Qsel();" class="Reset">Reset Score</button>
+        
+        </div>
+        
+    
+    
+</body>
+</html>
