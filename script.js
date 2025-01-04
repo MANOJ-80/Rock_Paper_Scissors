@@ -1,7 +1,7 @@
 /*const Score = { Wins:0 ,Losses:0 ,Ties:0};*/
 let Score =JSON.parse(localStorage.getItem('Score')) || {
     Wins:0,Losses:0,Ties:0
-};
+};    
 Qsel();
 
 function pickComputerMove()
